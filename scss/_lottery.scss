@@ -1,0 +1,27 @@
+.card {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    outline: 1px solid red;
+    width: 100%;
+  }
+
+  &__item {
+    border: 1px solid black;
+    flex: 0 calc(100% / 5 - 40px);
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.correct {
+  background-color: greenyellow;
+}
+
+.wrong {
+  background-color: red;
+}
